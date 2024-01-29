@@ -48,6 +48,7 @@ ok      flights-calculator/pkg/handler  0.020s  coverage: 74.4% of statements
 ```
 
 ## External Libraries and Decisions
+I only used standard library to keep things lightweight.
 
 ## Versions
 
