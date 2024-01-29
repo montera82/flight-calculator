@@ -6,7 +6,7 @@ Docker: Ensure Docker is installed on your machine. If not, download and install
 
 ## Running the Application
 Open your terminal and navigate to the root directory of the project.
-Run the command `make docker``. This will pull the necessary Docker images and boot up the server.
+Run the command `make docker`. This will pull the necessary Docker images and boot up the server.
 If the setup is successful, the terminal will display logs indicating the server's activity. In the end you should get a similar output as below
 
 ```
@@ -35,7 +35,7 @@ curl --location 'http://localhost:8080/v1/calculate' \
 
 Open your terminal and navigate to the root directory of the project.
 Run the command `make test`.
-Upon successful test execution, the terminal will present a summary of the results, giving insights into the health and robustness of the code. You should be greated with the following console output
+Upon successful test execution, the terminal will present a summary of the results, giving insights into the health and robustness of the code. You should be greeted with the following console output
 
 ```
 ➜  flight-calculator git:(main) ✗ make test
@@ -43,7 +43,7 @@ Upon successful test execution, the terminal will present a summary of the resul
 === RUN   TestCalculateHandler
 --- PASS: TestCalculateHandler (0.00s)
 PASS
-coverage: 74.4% of statements
+coverage: 46.5% of statements
 ok      flights-calculator/pkg/handler  0.020s  coverage: 74.4% of statements
 ```
 
